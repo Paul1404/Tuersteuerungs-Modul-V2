@@ -1,0 +1,285 @@
+18-Oct-23 14:11:50 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:11:50 - Read RFID key: 11223344
+18-Oct-23 14:11:50 - Access denied!
+18-Oct-23 14:11:51 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:11:51 - Read RFID key: 12345678
+18-Oct-23 14:11:51 - Access denied!
+18-Oct-23 14:11:52 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:11:52 - Read RFID key: 11223344
+18-Oct-23 14:11:52 - Access denied!
+18-Oct-23 14:11:53 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:11:53 - Read RFID key: 55667788
+18-Oct-23 14:11:53 - Access denied!
+18-Oct-23 14:11:54 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:11:54 - Read RFID key: 12345678
+18-Oct-23 14:11:54 - Access denied!
+18-Oct-23 14:11:55 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:11:55 - Read RFID key: 12345678
+18-Oct-23 14:11:55 - Access denied!
+18-Oct-23 14:11:56 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:11:56 - Read RFID key: 87654321
+18-Oct-23 14:11:56 - Access denied!
+18-Oct-23 14:11:57 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:11:57 - Read RFID key: 12345678
+18-Oct-23 14:11:57 - Access denied!
+18-Oct-23 14:11:58 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:11:58 - Read RFID key: 11223344
+18-Oct-23 14:11:58 - Access denied!
+18-Oct-23 14:11:59 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:11:59 - Read RFID key: 11223344
+18-Oct-23 14:11:59 - Access denied!
+18-Oct-23 14:12:00 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:12:00 - Read RFID key: 55667788
+18-Oct-23 14:12:00 - Access denied!
+18-Oct-23 14:12:01 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:12:01 - Read RFID key: 55667788
+18-Oct-23 14:12:01 - Access denied!
+18-Oct-23 14:12:02 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:12:02 - Read RFID key: 12345678
+18-Oct-23 14:12:02 - Access denied!
+18-Oct-23 14:12:03 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:12:03 - Read RFID key: 12345678
+18-Oct-23 14:12:03 - Access denied!
+18-Oct-23 14:12:04 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:12:04 - Read RFID key: 12345678
+18-Oct-23 14:12:04 - Access denied!
+18-Oct-23 14:12:05 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:12:05 - Read RFID key: 12345678
+18-Oct-23 14:12:05 - Access denied!
+18-Oct-23 14:12:06 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:12:06 - Read RFID key: 12345678
+18-Oct-23 14:12:06 - Access denied!
+18-Oct-23 14:12:07 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:12:07 - Read RFID key: 12345678
+18-Oct-23 14:12:07 - Access denied!
+18-Oct-23 14:12:08 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:12:08 - Read RFID key: 11223344
+18-Oct-23 14:12:08 - Access denied!
+18-Oct-23 14:12:09 - Exiting program.
+18-Oct-23 14:15:57 - 
+Options:
+1. Simulate RFID scan
+2. Add key to database
+3. Remove key from database
+4. Exit
+18-Oct-23 14:16:20 - Key 32840932 added to the database.
+18-Oct-23 14:16:20 - 
+Options:
+1. Simulate RFID scan
+2. Add key to database
+3. Remove key from database
+4. Exit
+18-Oct-23 14:16:21 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:16:21 - Read RFID key: 12345678
+18-Oct-23 14:16:21 - Access denied!
+18-Oct-23 14:16:22 - 
+Options:
+1. Simulate RFID scan
+2. Add key to database
+3. Remove key from database
+4. Exit
+18-Oct-23 14:16:24 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:16:24 - Read RFID key: 87654321
+18-Oct-23 14:16:24 - Access denied!
+18-Oct-23 14:16:25 - 
+Options:
+1. Simulate RFID scan
+2. Add key to database
+3. Remove key from database
+4. Exit
+18-Oct-23 14:16:31 - Key Main.Test was not found in the database.
+18-Oct-23 14:16:31 - 
+Options:
+1. Simulate RFID scan
+2. Add key to database
+3. Remove key from database
+4. Exit
+18-Oct-23 14:18:43 - Exiting program.
+18-Oct-23 14:18:43 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:18:43 - Read RFID key: 87654321
+18-Oct-23 14:18:43 - Access denied!
+18-Oct-23 14:18:44 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:18:44 - Read RFID key: 12345678
+18-Oct-23 14:18:44 - Access denied!
+18-Oct-23 14:18:45 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:18:45 - Read RFID key: 87654321
+18-Oct-23 14:18:45 - Access denied!
+18-Oct-23 14:18:46 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:18:46 - Read RFID key: 11223344
+18-Oct-23 14:18:46 - Access denied!
+18-Oct-23 14:18:47 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:18:47 - Read RFID key: 87654321
+18-Oct-23 14:18:47 - Access denied!
+18-Oct-23 14:18:48 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:18:48 - Read RFID key: 12345678
+18-Oct-23 14:18:48 - Access denied!
+18-Oct-23 14:18:49 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:18:49 - Read RFID key: 87654321
+18-Oct-23 14:18:49 - Access denied!
+18-Oct-23 14:18:50 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:18:50 - Read RFID key: 55667788
+18-Oct-23 14:18:50 - Access denied!
+18-Oct-23 14:18:51 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:18:51 - Read RFID key: 87654321
+18-Oct-23 14:18:51 - Access denied!
+18-Oct-23 14:18:52 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:18:52 - Read RFID key: 11223344
+18-Oct-23 14:18:52 - Access denied!
+18-Oct-23 14:18:53 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:18:53 - Read RFID key: 87654321
+18-Oct-23 14:18:53 - Access denied!
+18-Oct-23 14:18:54 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:18:54 - Read RFID key: 12345678
+18-Oct-23 14:18:54 - Access denied!
+18-Oct-23 14:18:55 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:18:55 - Read RFID key: 87654321
+18-Oct-23 14:18:55 - Access denied!
+18-Oct-23 14:18:56 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:18:56 - Read RFID key: 55667788
+18-Oct-23 14:18:56 - Access denied!
+18-Oct-23 14:18:57 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:18:57 - Read RFID key: 87654321
+18-Oct-23 14:18:57 - Access denied!
+18-Oct-23 14:18:58 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:18:58 - Read RFID key: 87654321
+18-Oct-23 14:18:58 - Access denied!
+18-Oct-23 14:18:59 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:18:59 - Read RFID key: 55667788
+18-Oct-23 14:18:59 - Access denied!
+18-Oct-23 14:19:00 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:00 - Read RFID key: 55667788
+18-Oct-23 14:19:00 - Access denied!
+18-Oct-23 14:19:01 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:01 - Read RFID key: 12345678
+18-Oct-23 14:19:01 - Access denied!
+18-Oct-23 14:19:02 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:02 - Read RFID key: 55667788
+18-Oct-23 14:19:02 - Access denied!
+18-Oct-23 14:19:03 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:03 - Read RFID key: 87654321
+18-Oct-23 14:19:03 - Access denied!
+18-Oct-23 14:19:04 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:04 - Read RFID key: 87654321
+18-Oct-23 14:19:04 - Access denied!
+18-Oct-23 14:19:05 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:05 - Read RFID key: 55667788
+18-Oct-23 14:19:05 - Access denied!
+18-Oct-23 14:19:06 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:06 - Read RFID key: 55667788
+18-Oct-23 14:19:06 - Access denied!
+18-Oct-23 14:19:07 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:07 - Read RFID key: 12345678
+18-Oct-23 14:19:07 - Access denied!
+18-Oct-23 14:19:08 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:08 - Read RFID key: 55667788
+18-Oct-23 14:19:08 - Access denied!
+18-Oct-23 14:19:09 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:09 - Read RFID key: 12345678
+18-Oct-23 14:19:09 - Access denied!
+18-Oct-23 14:19:10 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:10 - Read RFID key: 55667788
+18-Oct-23 14:19:10 - Access denied!
+18-Oct-23 14:19:11 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:11 - Read RFID key: 55667788
+18-Oct-23 14:19:11 - Access denied!
+18-Oct-23 14:19:12 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:12 - Read RFID key: 11223344
+18-Oct-23 14:19:12 - Access denied!
+18-Oct-23 14:19:13 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:13 - Read RFID key: 11223344
+18-Oct-23 14:19:13 - Access denied!
+18-Oct-23 14:19:14 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:14 - Read RFID key: 11223344
+18-Oct-23 14:19:14 - Access denied!
+18-Oct-23 14:19:15 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:15 - Read RFID key: 12345678
+18-Oct-23 14:19:15 - Access denied!
+18-Oct-23 14:19:16 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:16 - Read RFID key: 55667788
+18-Oct-23 14:19:16 - Access denied!
+18-Oct-23 14:19:17 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:17 - Read RFID key: 12345678
+18-Oct-23 14:19:17 - Access denied!
+18-Oct-23 14:19:18 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:18 - Read RFID key: 55667788
+18-Oct-23 14:19:18 - Access denied!
+18-Oct-23 14:19:19 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:19 - Read RFID key: 12345678
+18-Oct-23 14:19:19 - Access denied!
+18-Oct-23 14:19:20 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:20 - Read RFID key: 11223344
+18-Oct-23 14:19:20 - Access denied!
+18-Oct-23 14:19:21 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:21 - Read RFID key: 11223344
+18-Oct-23 14:19:21 - Access denied!
+18-Oct-23 14:19:22 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:22 - Read RFID key: 55667788
+18-Oct-23 14:19:22 - Access denied!
+18-Oct-23 14:19:23 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:23 - Read RFID key: 12345678
+18-Oct-23 14:19:23 - Access denied!
+18-Oct-23 14:19:24 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:24 - Read RFID key: 11223344
+18-Oct-23 14:19:24 - Access denied!
+18-Oct-23 14:19:25 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:25 - Read RFID key: 12345678
+18-Oct-23 14:19:25 - Access denied!
+18-Oct-23 14:19:26 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:26 - Read RFID key: 55667788
+18-Oct-23 14:19:26 - Access denied!
+18-Oct-23 14:19:27 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:27 - Read RFID key: 12345678
+18-Oct-23 14:19:27 - Access denied!
+18-Oct-23 14:19:28 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:28 - Read RFID key: 55667788
+18-Oct-23 14:19:28 - Access denied!
+18-Oct-23 14:19:29 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:29 - Read RFID key: 11223344
+18-Oct-23 14:19:29 - Access denied!
+18-Oct-23 14:19:30 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:30 - Read RFID key: 12345678
+18-Oct-23 14:19:30 - Access denied!
+18-Oct-23 14:19:31 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:31 - Read RFID key: 87654321
+18-Oct-23 14:19:31 - Access denied!
+18-Oct-23 14:19:32 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:32 - Read RFID key: 12345678
+18-Oct-23 14:19:32 - Access denied!
+18-Oct-23 14:19:33 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:19:33 - Read RFID key: 55667788
+18-Oct-23 14:19:33 - Access denied!
+18-Oct-23 14:19:36 - 
+Options:
+1. Simulate RFID scan
+2. Add key to database
+3. Remove key from database
+4. Exit
+18-Oct-23 14:19:48 - Key 32840932 removed from the database.
+18-Oct-23 14:19:48 - 
+Options:
+1. Simulate RFID scan
+2. Add key to database
+3. Remove key from database
+4. Exit
+18-Oct-23 14:20:50 - Exiting program.
+18-Oct-23 14:20:50 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:20:50 - Read RFID key: 12345678
+18-Oct-23 14:20:50 - Access denied!
+18-Oct-23 14:20:51 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:20:51 - Read RFID key: 55667788
+18-Oct-23 14:20:51 - Access denied!
+18-Oct-23 14:20:52 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:20:52 - Read RFID key: 87654321
+18-Oct-23 14:20:52 - Access denied!
+18-Oct-23 14:20:53 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:20:53 - Read RFID key: 55667788
+18-Oct-23 14:20:53 - Access denied!
+18-Oct-23 14:20:54 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:20:54 - Read RFID key: 11223344
+18-Oct-23 14:20:54 - Access denied!
+18-Oct-23 14:20:55 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:20:55 - Read RFID key: 12345678
+18-Oct-23 14:20:55 - Access denied!
+18-Oct-23 14:20:56 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:20:56 - Read RFID key: 12345678
+18-Oct-23 14:20:56 - Access denied!
