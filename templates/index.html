@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RFID Web Application</title>
+    <style>
+        /* Define a two-column layout */
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .left-column {
+            flex: 50%;
+        }
+
+        .right-column {
+            flex: 50%;
+            border-left: 1px solid #ddd;
+            padding-left: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>RFID Web Application</h1>
+
+    <div class="container">
+
+        <!-- Left column for forms -->
+        <div class="left-column">
+            <h2>Simulate RFID Scan</h2>
+            <form action="/simulate_rfid_scan" method="post">
+                <label for="rfid_key">Enter RFID key (or leave blank for mock scan):</label>
+                <input type="text" name="rfid_key">
+                <input type="submit" value="Simulate">
+            </form>
+
+            <h2>Add Key to Database</h2>
+            <form action="/add_key" method="post">
+                <label for="rfid_key">RFID Key:</label>
+                <input type="text" name="rfid_key" required>
+                <label for="description">Description (optional):</label>
+                <input type="text" name="description">
+                <input type="submit" value="Add Key">
+            </form>
+
+            <h2>Remove Key from Database</h2>
+            <form action="/remove_key" method="post">
+                <label for="rfid_key">RFID Key:</label>
+                <input type="text" name="rfid_key">
+                <label for="description">Or, Description:</label>
+                <input type="text" name="description">
+                <input type="submit" value="Remove Key">
+            </form>
+
+                <h2>List All Database Entries</h2>
+                <form action="/list_entries" method="post">
+                <input type="submit" value="List Entries">
+            </form>
+        </div>
+
+<!-- Right column for output -->
+<div class="right-column">
+    <h2>Output:</h2>
+    <ul>
+    {% for message in messages %}
+        <li>{{ message }}</li>
+    {% endfor %}
+    </ul>
+
+</div>
+</body>
+</html>

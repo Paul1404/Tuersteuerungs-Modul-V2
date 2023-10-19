@@ -2,18 +2,22 @@ import sqlite3
 import time
 import random
 import logging
+from flask import Flask, render_template, request, redirect, url_for
 
 # Set up the logger
 logging.basicConfig(filename='rfid_access.log', level=logging.INFO,
                     format='%(asctime)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
 
 
+messages = []
+
+
 def log_message(message):
     """
-    Logs the message to the console and to a log file.
+    Logs the message to the messages list with a timestamp.
     """
-    print(message)
-    logging.info(message)
+    timestamped_message = f"{time.strftime('%d-%b-%y %H:%M:%S')} - {message}"
+    messages.append(timestamped_message)
 
 
 def setup_database():
@@ -34,9 +38,6 @@ def setup_database():
 
     conn.commit()
     conn.close()
-
-
-setup_database()
 
 
 def mock_reader():
@@ -107,66 +108,76 @@ def remove_key_from_database(input_value, by_description=False):
     conn.close()
 
 
-def main():
+def list_all_entries():
     """
-    Main loop to allow adding/removing/checking RFID keys.
+    Fetch and log all entries from the database.
     """
-    try:
-        while True:
-            log_message(
-                "\nOptions:\n1. Simulate RFID scan\n2. Add key to database\n3. Remove key from database\n4. Exit")
-            choice = input("Enter your choice: ")
+    conn = sqlite3.connect('rfid_keys.db')
+    cursor = conn.cursor()
 
-            if choice == "1":
-                log_message("\nSimulate RFID scan options:\n1. Use mock generator\n2. Enter custom RFID key")
-                scan_choice = input("Enter your choice: ")
+    cursor.execute("SELECT * FROM authorized_keys")
+    results = cursor.fetchall()
 
-                if scan_choice == "1":
-                    log_message("Simulating placing the RFID card on the scanner...")
-                    rfid_key = mock_reader()
-                elif scan_choice == "2":
-                    rfid_key = input("Enter your custom RFID key: ")
-                else:
-                    log_message("Invalid choice. Please try again.")
-                    continue  # This will skip the rest of the loop and return to the main menu.
+    conn.close()
 
-                log_message(f"Read RFID key: {rfid_key}")
+    if results:
+        log_message("Listing all entries from the database:")
+        for rfid_key, description in results:
+            log_message(f"RFID Key: {rfid_key}, Description: {description}")
+    else:
+        log_message("No entries found in the database.")
 
-                if is_key_authorized(rfid_key):
-                    log_message("Access granted!")
-                    log_message("Simulating door unlock for 3 seconds...")
-                    time.sleep(3)
-                    log_message("Simulating door lock again...")
-                else:
-                    log_message("Access denied!")
-                    time.sleep(1)
 
-            elif choice == "2":
-                rfid_key = input("Enter the RFID key to add: ")
-                description = input("Enter a description for the key (optional): ")
-                add_key_to_database(rfid_key, description)
+# Flask setup
+app = Flask(__name__)
+app.secret_key = 'some_secret_key'  # For flashing messages
 
-            elif choice == "3":
-                removal_choice = input("Remove by (1) RFID key or (2) Description? ")
-                if removal_choice == "1":
-                    rfid_key = input("Enter the RFID key to remove: ")
-                    remove_key_from_database(rfid_key)
-                elif removal_choice == "2":
-                    description = input("Enter the description of the key to remove: ")
-                    remove_key_from_database(description, by_description=True)
-                else:
-                    log_message("Invalid choice. Please try again.")
 
-            elif choice == "4":
-                log_message("Exiting program.")
-                break
+@app.route('/')
+def index():
+    return render_template('index.html', messages=messages)
 
-            else:
-                log_message("Invalid choice. Please try again.")
 
-    except KeyboardInterrupt:
-        log_message("Exiting program.")
+@app.route('/simulate_rfid_scan', methods=['POST'])
+def simulate_rfid_scan():
+    rfid_key = request.form['rfid_key']
+    if not rfid_key:
+        rfid_key = mock_reader()  # If no key is entered, use the mock reader.
+    if is_key_authorized(rfid_key):
+        log_message(f"Read RFID key: {rfid_key}. Access granted!")
+    else:
+        log_message(f"Read RFID key: {rfid_key}. Access denied!")
+    return redirect(url_for('index'))
+
+
+@app.route('/add_key', methods=['POST'])
+def add_key():
+    rfid_key = request.form['rfid_key']
+    description = request.form['description']
+    add_key_to_database(rfid_key, description)
+    log_message(f"RFID key: {rfid_key} added with description: {description}")
+    return redirect(url_for('index'))
+
+
+@app.route('/remove_key', methods=['POST'])
+def remove_key():
+    rfid_key = request.form['rfid_key']
+    description = request.form['description']
+    if rfid_key:
+        remove_key_from_database(rfid_key)
+        log_message(f"RFID key: {rfid_key} removed")
+    elif description:
+        remove_key_from_database(description, by_description=True)
+        log_message(f"Description: {description} removed")
+    return redirect(url_for('index'))
+
+
+@app.route('/list_entries', methods=['POST'])
+def list_entries():
+    list_all_entries()
+    return redirect(url_for('index'))
 
 
 if __name__ == "__main__":
-    main()
+    setup_database()
+    app.run(debug=True)
