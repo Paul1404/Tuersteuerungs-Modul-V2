@@ -555,3 +555,21 @@ Options:
 19-Oct-23 10:40:11 - 127.0.0.1 - - [19/Oct/2023 10:40:11] "GET / HTTP/1.1" 200 -
 19-Oct-23 10:40:14 - 127.0.0.1 - - [19/Oct/2023 10:40:14] "[31m[1mPOST /list_entries HTTP/1.1[0m" 405 -
 19-Oct-23 10:40:29 - 127.0.0.1 - - [19/Oct/2023 10:40:29] "[31m[1mPOST /list_entries HTTP/1.1[0m" 405 -
+19-Oct-23 10:41:28 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+19-Oct-23 10:41:28 - [33mPress CTRL+C to quit[0m
+19-Oct-23 10:41:28 -  * Restarting with stat
+19-Oct-23 10:41:29 -  * Debugger is active!
+19-Oct-23 10:41:29 -  * Debugger PIN: 742-633-265
+19-Oct-23 10:41:33 - 127.0.0.1 - - [19/Oct/2023 10:41:33] "GET / HTTP/1.1" 200 -
+19-Oct-23 10:41:35 - 127.0.0.1 - - [19/Oct/2023 10:41:35] "[32mPOST /list_entries HTTP/1.1[0m" 302 -
+19-Oct-23 10:41:35 - 127.0.0.1 - - [19/Oct/2023 10:41:35] "GET / HTTP/1.1" 200 -
+19-Oct-23 10:41:43 - 127.0.0.1 - - [19/Oct/2023 10:41:43] "GET / HTTP/1.1" 200 -
+19-Oct-23 10:41:47 - 127.0.0.1 - - [19/Oct/2023 10:41:47] "[32mPOST /simulate_rfid_scan HTTP/1.1[0m" 302 -
+19-Oct-23 10:41:47 - 127.0.0.1 - - [19/Oct/2023 10:41:47] "GET / HTTP/1.1" 200 -
+19-Oct-23 10:42:16 - 127.0.0.1 - - [19/Oct/2023 10:42:16] "[32mPOST /add_key HTTP/1.1[0m" 302 -
+19-Oct-23 10:42:16 - 127.0.0.1 - - [19/Oct/2023 10:42:16] "GET / HTTP/1.1" 200 -
+19-Oct-23 10:42:47 - 127.0.0.1 - - [19/Oct/2023 10:42:47] "[32mPOST /remove_key HTTP/1.1[0m" 302 -
+19-Oct-23 10:42:48 - 127.0.0.1 - - [19/Oct/2023 10:42:48] "GET / HTTP/1.1" 200 -
+19-Oct-23 10:42:51 - 127.0.0.1 - - [19/Oct/2023 10:42:51] "[32mPOST /list_entries HTTP/1.1[0m" 302 -
+19-Oct-23 10:42:51 - 127.0.0.1 - - [19/Oct/2023 10:42:51] "GET / HTTP/1.1" 200 -
