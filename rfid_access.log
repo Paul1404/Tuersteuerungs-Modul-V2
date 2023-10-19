@@ -283,3 +283,102 @@ Options:
 18-Oct-23 14:20:56 - Simulating placing the RFID card on the scanner...
 18-Oct-23 14:20:56 - Read RFID key: 12345678
 18-Oct-23 14:20:56 - Access denied!
+18-Oct-23 14:24:19 - 
+Options:
+1. Simulate RFID scan
+2. Add key to database
+3. Remove key from database
+4. Exit
+18-Oct-23 14:24:39 - Key 243298748 added to the database.
+18-Oct-23 14:24:39 - 
+Options:
+1. Simulate RFID scan
+2. Add key to database
+3. Remove key from database
+4. Exit
+18-Oct-23 14:24:58 - Entry with description 'Main.Test1' removed from the database.
+18-Oct-23 14:24:58 - 
+Options:
+1. Simulate RFID scan
+2. Add key to database
+3. Remove key from database
+4. Exit
+18-Oct-23 14:28:08 - Exiting program.
+18-Oct-23 14:28:08 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:28:08 - Read RFID key: 12345678
+18-Oct-23 14:28:08 - Access denied!
+18-Oct-23 14:28:09 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:28:09 - Read RFID key: 12345678
+18-Oct-23 14:28:09 - Access denied!
+18-Oct-23 14:28:10 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:28:10 - Read RFID key: 12345678
+18-Oct-23 14:28:10 - Access denied!
+18-Oct-23 14:28:11 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:28:11 - Read RFID key: 12345678
+18-Oct-23 14:28:11 - Access denied!
+18-Oct-23 14:28:13 - 
+Options:
+1. Simulate RFID scan
+2. Add key to database
+3. Remove key from database
+4. Exit
+18-Oct-23 14:28:32 - Key 071404 added to the database.
+18-Oct-23 14:28:32 - 
+Options:
+1. Simulate RFID scan
+2. Add key to database
+3. Remove key from database
+4. Exit
+18-Oct-23 14:28:34 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:28:34 - Read RFID key: 87654321
+18-Oct-23 14:28:34 - Access denied!
+18-Oct-23 14:28:35 - 
+Options:
+1. Simulate RFID scan
+2. Add key to database
+3. Remove key from database
+4. Exit
+18-Oct-23 14:30:35 - Exiting program.
+18-Oct-23 14:30:35 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:30:35 - Read RFID key: 11223344
+18-Oct-23 14:30:35 - Access denied!
+18-Oct-23 14:30:36 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:30:36 - Read RFID key: 55667788
+18-Oct-23 14:30:36 - Access denied!
+18-Oct-23 14:30:37 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:30:37 - Read RFID key: 11223344
+18-Oct-23 14:30:37 - Access denied!
+18-Oct-23 14:30:38 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:30:38 - Read RFID key: 87654321
+18-Oct-23 14:30:38 - Access denied!
+18-Oct-23 14:30:39 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:30:39 - Read RFID key: 11223344
+18-Oct-23 14:30:39 - Access denied!
+18-Oct-23 14:30:40 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:30:40 - Read RFID key: 87654321
+18-Oct-23 14:30:40 - Access denied!
+18-Oct-23 14:30:41 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:30:41 - Read RFID key: 12345678
+18-Oct-23 14:30:41 - Access denied!
+18-Oct-23 14:30:42 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:30:42 - Read RFID key: 11223344
+18-Oct-23 14:30:42 - Access denied!
+18-Oct-23 14:30:43 - Simulating placing the RFID card on the scanner...
+18-Oct-23 14:30:43 - Read RFID key: 87654321
+18-Oct-23 14:30:43 - Access denied!
+19-Oct-23 09:44:51 - 
+Options:
+1. Simulate RFID scan
+2. Add key to database
+3. Remove key from database
+4. Exit
+19-Oct-23 09:44:56 - Simulating placing the RFID card on the scanner...
+19-Oct-23 09:44:56 - Read RFID key: 11223344
+19-Oct-23 09:44:56 - Access denied!
+19-Oct-23 09:44:57 - 
+Options:
+1. Simulate RFID scan
+2. Add key to database
+3. Remove key from database
+4. Exit
+19-Oct-23 09:45:04 - Exiting program.

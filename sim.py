@@ -118,8 +118,18 @@ def main():
             choice = input("Enter your choice: ")
 
             if choice == "1":
-                log_message("Simulating placing the RFID card on the scanner...")
-                rfid_key = mock_reader()
+                log_message("\nSimulate RFID scan options:\n1. Use mock generator\n2. Enter custom RFID key")
+                scan_choice = input("Enter your choice: ")
+
+                if scan_choice == "1":
+                    log_message("Simulating placing the RFID card on the scanner...")
+                    rfid_key = mock_reader()
+                elif scan_choice == "2":
+                    rfid_key = input("Enter your custom RFID key: ")
+                else:
+                    log_message("Invalid choice. Please try again.")
+                    continue  # This will skip the rest of the loop and return to the main menu.
+
                 log_message(f"Read RFID key: {rfid_key}")
 
                 if is_key_authorized(rfid_key):
@@ -130,10 +140,12 @@ def main():
                 else:
                     log_message("Access denied!")
                     time.sleep(1)
+
             elif choice == "2":
                 rfid_key = input("Enter the RFID key to add: ")
                 description = input("Enter a description for the key (optional): ")
                 add_key_to_database(rfid_key, description)
+
             elif choice == "3":
                 removal_choice = input("Remove by (1) RFID key or (2) Description? ")
                 if removal_choice == "1":
@@ -144,9 +156,11 @@ def main():
                     remove_key_from_database(description, by_description=True)
                 else:
                     log_message("Invalid choice. Please try again.")
+
             elif choice == "4":
                 log_message("Exiting program.")
                 break
+
             else:
                 log_message("Invalid choice. Please try again.")
 
@@ -157,28 +171,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-
-def main():
-    """
-    Main loop to constantly "read" RFID keys and check their authorization.
-    """
-    try:
-        while True:
-            log_message("Simulating placing the RFID card on the scanner...")
-            rfid_key = mock_reader()
-            log_message(f"Read RFID key: {rfid_key}")
-
-            if is_key_authorized(rfid_key):
-                log_message("Access granted!")
-                log_message("Simulating door unlock for 3 seconds...")
-                time.sleep(3)
-                log_message("Simulating door lock again...")
-            else:
-                log_message("Access denied!")
-                time.sleep(1)
-    except KeyboardInterrupt:
-        log_message("Exiting program.")
-
-
-if __name__ == "__main__":
-    main()
